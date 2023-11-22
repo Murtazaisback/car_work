@@ -105,20 +105,24 @@ export const LandingPageComponent = () => {
         return (
             <>
             <Container>
-                <div className="Search_bg">
-                    <LandingSearchComponent/>
-                </div>
                 <div>
 
-                    <Category/>
-                    <BlogSection/>
-                    <Tipsandgudie/>
 
                 </div>
                 <div className={'d-flex text-center justify-content-center'}>
                     {renderBaseCategories()}
                 </div>
             </Container>
+            <div className="container_main_1">
+
+            
+                <div className="Search_bg">
+                    <LandingSearchComponent/>
+                </div>
+                    <Category/>
+                    <BlogSection/>
+                    <Tipsandgudie/>
+            </div>
                 {/* <Footer/> */}
             </>
         )

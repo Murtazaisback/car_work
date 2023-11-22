@@ -1,6 +1,6 @@
 import React from 'react'
 import { Blog } from '../../imgs'
-import {BlogContainer, Breadcrumb} from "./index"
+import {BlogAuther, BlogContainer, Breadcrumb} from "./index"
 
 const VehicleBody = () => {
   return (
@@ -10,6 +10,7 @@ const VehicleBody = () => {
       </div>
         <Breadcrumb/>
         <BlogContainer/>
+        <BlogAuther/>
     </div>
   )
 }

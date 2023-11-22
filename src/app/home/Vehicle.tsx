@@ -103,7 +103,6 @@ const Vehicle = () => {
             <>
             <Container>
                 <div className="">
-                    <VehicleHead/>
                 </div>
 
                 <div>
@@ -113,7 +112,11 @@ const Vehicle = () => {
                     {renderBaseCategories()}
                 </div>
             </Container>
+            <div className="container_main_1">
+                    <VehicleHead/>
                 <VehicleBody/>
+
+            </div>
             <div>
             </div>
             </>

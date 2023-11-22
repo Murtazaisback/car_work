@@ -12,6 +12,10 @@
 .min-hight-100{
   min-height: 100vh;
 }
+.container_main_1{
+  width: 1225px;
+  margin: 0 auto; 
+}
 
 .base-category-icon {
   background-color: #FFFFFF;
@@ -27,6 +31,7 @@
 .Search_bg {
   background: url(../../imgs/car.jpg);
   background-size: cover;
+  height: 65vh;
 }
 
 .Langing_container {
@@ -47,6 +52,9 @@
   border-radius: 15px;
   font-size: 20px;
   font-weight: 500;
+}
+.Landing_btn_main:hover{
+  color: white;
 }
 
 
@@ -212,7 +220,7 @@ footer{
   align-items: first baseline;
   margin: 0 auto;
   padding-top: 40px;
-  max-width: 1320px;
+  max-width: 1225px;
   justify-content: space-between;
 }
 .footer_col{
@@ -254,13 +262,16 @@ footer{
   height: 5px;
 }
 .main_container{
-  max-width: 1320px;
+  width: 1225px;
   margin: 0 auto;
   padding: 6px 12px;
   /* padding-bottom: 0; */
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header_menu{
+  padding: 10px 0;
 }
 .main_logo{
   font-size: 23px;
@@ -317,7 +328,7 @@ footer{
   background: none;
   border: none;
   font-size: 14px;
-  padding: 10px;
+  /* padding: 10px; */
   color: #000;
   font-weight: 700;
   display: flex;
@@ -474,7 +485,7 @@ padding: 20px 45px;
   background: #ececee;
 }
 .res_body{
-  max-width: 1300px;
+  max-width: 1225px;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -492,16 +503,18 @@ padding: 20px 45px;
 .res_cards{
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  /* gap: 12px; */
   flex-wrap: wrap;
+  justify-content: space-between;
   row-gap: 0px;
 }
 .res_card{
-  width: 400px;
-  position: relative;
+  width: 385px;
+  /* position: relative; */
 }
 .res_card_img{
-  height: 300px;
+  width: 385px;
+  height: 275px;
 }
 .card_wapper{
   position: relative;
@@ -518,7 +531,7 @@ padding: 20px 45px;
   background: linear-gradient(0deg, rgba(0,0,0,0.4206932773109243) 0%, rgba(255,255,255,0) 100%);
 
   width: 100%;
-  height: 300px;
+  height: 275px;
   z-index: 1;
   padding: 10px;
 }
@@ -604,7 +617,7 @@ padding: 20px 45px;
 
 /* vehicle_page */
 .blogpage_section{
-  width: 1300px;
+  width: 100%;
   margin: 0 auto;
   
 }
@@ -612,20 +625,27 @@ padding: 20px 45px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 .vic_menu_item{
   text-decoration: none;
-  font-size: 29px ;
+  font-size: 27px ;
   font-weight: 700;
   color: #000;
   transition: all ease-in-out 0.25s;
 
 }
+.header_img{
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  
+}
 .header_img img{
   width: 100%;
 }
 .Breadcurmb_sec{
+  margin-top: 20px;
   display: flex;
   align-items: center;
   color: #808080;
@@ -641,7 +661,10 @@ padding: 20px 45px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
+}
+.main_blog h4{
+  font-weight: 400;
 }
 .title{
   font-size: 50px;

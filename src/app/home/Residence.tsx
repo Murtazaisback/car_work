@@ -103,9 +103,6 @@ const Residence = () => {
         return (
             <>
             <Container>
-                <div className="residence_bg">
-                    <ResidenceHead/>
-                </div>
 
                 <div>
 
@@ -114,8 +111,16 @@ const Residence = () => {
                     {renderBaseCategories()}
                 </div>
             </Container>
+            <div className="container_main_1">
+                <div className="residence_bg">
+                    <ResidenceHead/>
+                </div>
+
+            </div>
+
             <div>
                 <ResidenceBody/>
+
             </div>
             </>
         )
