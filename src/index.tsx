@@ -20,6 +20,8 @@ import {VerifyMailComponent} from "./app/auth/VerifyMailComponent";
 import {AdWatchesComponent} from "./app/ads/watches/AdWatchesComponent";
 import Residence from './app/home/Residence';
 import Vehicle from './app/home/Vehicle';
+import Search from './app/home/Search';
+import SingleCar from './app/home/SingleCar';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -38,6 +40,8 @@ const router = createBrowserRouter([
             {path: "Ads", element: <AdsComponent />},
             {path: "Residence", element: <Residence />},
             {path: "Vehicle", element: <Vehicle />},
+            {path: "Search", element: <Search />},
+            {path: "SinglePost", element: <SingleCar />},
         ]
     },
     {

@@ -6,6 +6,14 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='footer_container'>
+      <div className="blue_bar_box">
+        <div className="sky_bar"></div>
+        <div className="blue_bar"></div>
+        <div className="sky_bar"></div>
+        <div className="blue_bar"></div>
+        <div className="sky_bar"></div>
+        <div className="blue_bar"></div>
+      </div>
       <footer>
         <div className="footer_col">
           <h3 className="footer_title">Security</h3>
